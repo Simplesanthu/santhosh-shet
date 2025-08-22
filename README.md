@@ -1,10 +1,17 @@
-# Santhosh Shet  
+<!-- Profile Header with Typing Animation -->
+<h1 align="center" style="font-family: 'Cursive', 'Brush Script MT', fantasy; font-size: 42px; font-weight: bold; color: #1E90FF;">👋 Welcome! Glad to see you here</h1>
+<h2 align="center" style="font-family: 'Papyrus', 'Lucida Handwriting', cursive; font-size: 36px; color: #2E4053;">Hello, I'm <strong>Santhosh Shet</strong></h2>
+<h3 align="center">💻 Oracle CPQ Developer | Exploring Data Science & Analytics | 🌐 Tech Explorer</h3>
 
-💻 **Oracle CPQ Developer | System Engineer | Aspiring Data Scientist**  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=1E90FF&center=true&vCenter=true&width=600&lines=Oracle+CPQ+Developer;Aspiring+Data+Scientist;System+Engineer;Tech+Explorer+%7C+Problem+Solver;Always+Learning+New+Technologies" alt="Typing Animation" />
+</p>
 
-📍 Davanagere, Karnataka, India  
+---
+
+## 📫 Contact Me  
 📧 [santhoshmshet94@gmail.com](mailto:santhoshmshet94@gmail.com)  
-📱 +91 8880855567  
+📱 **+91 8880855567**  
 🔗 [LinkedIn](https://www.linkedin.com/in/santhoshshet) | [GitHub](https://github.com/yourusername)  
 
 ---
@@ -20,13 +27,13 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 
 ## 🛠️ Skills & Tools  
 
-**Oracle CPQ Development**  
+### ⚙️ Oracle CPQ Development  
 ![Oracle](https://img.shields.io/badge/Oracle_CPQ-EF0000?style=for-the-badge&logo=oracle&logoColor=white)  
 ![BML](https://img.shields.io/badge/BML_Scripting-blue?style=flat-square)  
 ![BMQL](https://img.shields.io/badge/BMQL-lightgrey?style=flat-square)  
 
 - Strong experience with **BML scripting** and **BMQL queries**  
-- Ability to understand and write **complex BML code** for custom requirements  
+- Ability to write **complex BML code** for custom requirements  
 - Expertise in **Configuration Rules, Commerce Rules, Approval Flows, Document Designer**  
 - Proficient with **Document Designer (XSL snippets)**  
 - Experience in **ABO package installation and modifications**  
@@ -34,7 +41,7 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 - **Integration experience with Salesforce**  
 - Technical Designing, Design Document & Specification creation  
 
-**Programming & Web Technologies**  
+### 💻 Programming & Web Technologies  
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
@@ -43,13 +50,13 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)  
 ![AJAX](https://img.shields.io/badge/AJAX-blue?style=flat-square)  
 
-**Web Services & Integration**  
+### 🌐 Web Services & Integration  
 - **SOAP-based Web Services**  
 - REST APIs  
 - ERP & CRM Integrations  
 - Salesforce Integration  
 
-**Other Tools**  
+### 🛠️ Other Tools  
 - JQuery  
 - Configuration Management  
 - Debugging & RCA Analysis  
@@ -57,9 +64,7 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 
 ---
 
-## 💼 Experience  
-
-**System Engineer** (2021 – Present)  
+## 💼 Experience   
 - Designed and implemented **Oracle CPQ solutions** to improve efficiency, accuracy, and profitability.  
 - Developed **Configuration Rules** (Recommendation, BOM, Constraints, Flows).  
 - Built and maintained **Commerce Rules** (Hiding, Validation, Constraint).  
@@ -70,8 +75,8 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 ---
 
 ## 📂 Projects  
-- **VERTIV – Thermal Project** (CPQ Development & Enhancements)  
-- **GE Vernova – Power Services** (Configuration & Workflow Optimization)  
+- 🔧 **VERTIV – Thermal Project** → CPQ Development & Enhancements  
+- ⚡ **GE Vernova – Power Services** → Configuration & Workflow Optimization  
 
 ---
 
@@ -89,8 +94,29 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 ---
 
 ## 🌍 Languages  
--  English  
--  Hindi  
--  Kannada  
+- English  
+- Hindi  
+- Kannada  
 
 ---
+
+## 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" height="160px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight" height="160px"/>
+</p>
+
+---
+
+## 🚀 Fun Animations  
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
+</p>
+
+---
+
+✨ *“Building efficient CPQ solutions today, aspiring to leverage Data Science for smarter business decisions tomorrow.”*  
