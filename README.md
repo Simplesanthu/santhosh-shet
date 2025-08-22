@@ -1,6 +1,6 @@
 <!-- Profile Header with Typing Animation -->
-<h1 align="center" style="font-family: 'Cursive', 'Brush Script MT', fantasy; font-size: 42px; font-weight: bold; color: #1E90FF;">👋 Welcome! Glad to see you here</h1>
-<h2 align="center" style="font-family: 'Papyrus', 'Lucida Handwriting', cursive; font-size: 36px; color: #2E4053;">Hello, I'm <strong>Santhosh Shet</strong></h2>
+<h1 align="center" style="font-family: 'Georgia', serif; font-size: 40px; font-weight: bold; color: #1E90FF;">👋 Welcome! Glad to see you here</h1>
+<h2 align="center" style="font-family: 'Trebuchet MS', sans-serif; font-size: 34px; color: #2E4053;">Hello, I'm <strong>Santhosh Shet</strong></h2>
 <h3 align="center">💻 Oracle CPQ Developer | Exploring Data Science & Analytics | 🌐 Tech Explorer</h3>
 
 <p align="center">
@@ -99,24 +99,3 @@ I am an IT professional with **4+ years of experience** in **Oracle CPQ Developm
 - Kannada  
 
 ---
-
-## 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight" height="160px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight" height="160px"/>
-</p>
-
----
-
-## 🚀 Fun Animations  
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies"/>
-</p>
-
----
-
-✨ *“Building efficient CPQ solutions today, aspiring to leverage Data Science for smarter business decisions tomorrow.”*  
