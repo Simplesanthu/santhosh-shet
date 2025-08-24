@@ -3,209 +3,114 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Santhosh M Shet – Portfolio</title>
-  <meta name="description" content="Oracle CPQ Developer • Exploring Data Science & Analytics • Portfolio" />
+  <title>Santhosh Shet — Oracle CPQ Developer</title>
+  <meta name="description" content="Oracle CPQ Developer • Exploring Data Science & Analytics • Portfolio of Santhosh Shet" />
 
-  <!-- Google Font -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-  <!-- Particles.js & Typed.js (animations) -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/style.css" />
 
-  <style>
-    :root {
-      --bg: #0b1220;
-      --panel: #0f172a;
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --brand: #60a5fa; /* blue */
-      --brand-2: #a78bfa; /* violet */
-      --accent: #34d399; /* teal */
-    }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0; font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, sans-serif;
-      background: radial-gradient(1200px 800px at 80% -10%, rgba(96,165,250,0.15), transparent 60%),
-                  radial-gradient(1000px 700px at 0% 120%, rgba(167,139,250,0.18), transparent 60%),
-                  var(--bg);
-      color: var(--text);
-      scroll-behavior: smooth;
-    }
-    /* Particle background */
-    #particles-js { position: fixed; inset: 0; z-index: -1; }
+  <!-- Animation libs -->
+  <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
-    /* Container */
-    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
-
-    /* NAV */
-    .nav {
-      position: sticky; top: 0; z-index: 10; backdrop-filter: blur(8px);
-      background: rgba(15, 23, 42, 0.6); border-bottom: 1px solid rgba(255,255,255,0.06);
-    }
-    .nav .inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
-    .brand { font-weight: 800; letter-spacing: 0.3px; }
-    .brand span { color: var(--brand); }
-    .nav a { color: var(--text); text-decoration: none; margin-left: 18px; font-weight: 500; }
-    .nav a:hover { color: var(--brand); }
-
-    /* HERO */
-    .hero { padding: 80px 0 60px; text-align: center; }
-    .avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(255,255,255,0.2); box-shadow: 0 8px 30px rgba(0,0,0,0.4); }
-    h1 { font-size: 42px; margin: 20px 0 8px; line-height: 1.15; }
-    .typed { font-weight: 600; background: linear-gradient(90deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .subtitle { color: var(--muted); margin-top: 8px; }
-    .cta { margin-top: 18px; display: inline-flex; gap: 12px; }
-    .btn { padding: 10px 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.12); color: var(--text); text-decoration: none; font-weight: 600; }
-    .btn.primary { background: linear-gradient(90deg, var(--brand), var(--brand-2)); border: none; }
-    .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
-
-    /* SECTIONS */
-    section { padding: 70px 0; }
-    .section-title { font-size: 28px; margin-bottom: 20px; }
-    .panel { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: 18px; padding: 22px; }
-
-    /* GRID */
-    .grid { display: grid; gap: 16px; }
-    @media (min-width: 720px) { .grid.cols-2 { grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 960px) { .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
-
-    /* LISTS */
-    .list { margin: 0; padding-left: 18px; color: var(--text); }
-    .list li { margin: 8px 0; }
-
-    /* FOOTER */
-    footer { padding: 40px 0 60px; color: var(--muted); text-align: center; font-size: 14px; }
-
-    /* Reveal animation */
-    .reveal { opacity: 0; transform: translateY(14px); transition: all .7s ease; }
-    .reveal.show { opacity: 1; transform: none; }
-  </style>
+  <!-- Your JS (loads last) -->
+  <script defer src="assets/script.js"></script>
 </head>
 <body>
-  <div id="particles-js"></div>
-
-  <!-- NAV -->
-  <nav class="nav">
-    <div class="wrap inner">
-      <div class="brand">Santhosh <span>Shet</span></div>
-      <div class="links">
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top">Santhosh <span>Shet</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav__links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-      </div>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- HERO -->
-  <header class="hero wrap">
-    <!-- TODO: Replace the src with your own image path or GitHub avatar URL -->
-    <img class="avatar" src="https://avatars.githubusercontent.com/u/000000?v=4" alt="Profile photo of Santhosh" />
-    <h1>Hey, I'm <span class="typed" id="typed"></span></h1>
-    <p class="subtitle">Oracle CPQ Developer • Exploring Data Science & Analytics • Tech Enthusiast</p>
+  <!-- Hero -->
+  <section id="top" class="hero wrap">
+    <img class="avatar" src="assets/profile.jpg" alt="Profile photo of Santhosh Shet" />
+    <h1 class="hero__title">Hey, I’m <span class="name">Santhosh</span></h1>
+    <p class="hero__typed">
+      <span id="typed"></span>
+    </p>
+    <p class="hero__sub">Oracle CPQ Developer · Exploring Data Science & Analytics · Tech Enthusiast</p>
     <div class="cta">
       <a class="btn primary" href="#projects">View Projects</a>
       <a class="btn" href="mailto:santhoshmshet94@gmail.com">Contact Me</a>
     </div>
-  </header>
+    <div class="scroll-hint">Scroll</div>
+  </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="wrap reveal">
-    <h2 class="section-title">About Me</h2>
+  <!-- About -->
+  <section id="about" class="section wrap reveal">
+    <h2 class="section__title">About Me</h2>
     <div class="panel">
-      <p>I'm an IT professional with <strong>4+ years of experience</strong> in <strong>Oracle CPQ Development</strong>, delivering enterprise-grade solutions for global clients. I love solving business problems with CPQ automation and I’m actively exploring <strong>Data Science, Machine Learning, and Analytics</strong>.</p>
+      <p>I’m an IT professional with <strong>4+ years</strong> in <strong>Oracle CPQ Development</strong>, delivering enterprise-grade solutions for global clients. I love solving business problems with CPQ automation and I’m actively exploring <strong>Data Science, ML, and Analytics</strong>.</p>
       <ul class="list">
         <li>CPQ: Configurations, Commerce Rules, Approval Flows, Document Designer (XSL).</li>
-        <li>Strong with <strong>BML scripting</strong>, <strong>BMQL</strong>, and ABO package install/modify.</li>
-        <li>Integrations with ERP/CRM (incl. Salesforce), SOAP/REST web services.</li>
-        <li>Languages/Tools: Java, JavaScript, HTML, CSS, XML, JSON, AJAX; Debugging & RCA; Migrations.</li>
+        <li><strong>BML</strong> scripting, <strong>BMQL</strong>, and ABO package install/modify.</li>
+        <li>Integrations with ERP/CRM (incl. Salesforce), SOAP & REST services.</li>
+        <li>Stack: Java, JavaScript, HTML, CSS, XML, JSON, AJAX · Debugging/RCA · Migrations.</li>
       </ul>
     </div>
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills" class="wrap reveal">
-    <h2 class="section-title">Skills</h2>
+  <!-- Skills -->
+  <section id="skills" class="section wrap reveal">
+    <h2 class="section__title">Skills</h2>
     <div class="grid cols-3">
-      <div class="panel"><strong>Oracle CPQ</strong><br/>BML • BMQL • Config/Commerce • Approvals • Doc Designer • ABO</div>
-      <div class="panel"><strong>Integrations</strong><br/>SOAP • REST • ERP • CRM • Salesforce</div>
-      <div class="panel"><strong>Web & Langs</strong><br/>Java • JavaScript • HTML • CSS • XML • JSON • AJAX</div>
+      <div class="panel">
+        <h3>Oracle CPQ</h3>
+        <p>BML · BMQL · Config/Commerce · Approvals · Doc Designer · ABO</p>
+      </div>
+      <div class="panel">
+        <h3>Integrations</h3>
+        <p>SOAP · REST · ERP · CRM · Salesforce</p>
+      </div>
+      <div class="panel">
+        <h3>Web & Languages</h3>
+        <p>Java · JavaScript · HTML · CSS · XML · JSON · AJAX</p>
+      </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="wrap reveal">
-    <h2 class="section-title">Projects</h2>
+  <!-- Projects -->
+  <section id="projects" class="section wrap reveal">
+    <h2 class="section__title">Projects</h2>
     <div class="grid cols-2">
-      <div class="panel">
+      <article class="card">
         <h3>VERTIV – Thermal Project</h3>
-        <p>CPQ development & enhancements improving quoting speed and accuracy. Built configuration and commerce rule stacks, templates, and approvals.</p>
-      </div>
-      <div class="panel">
+        <p>CPQ development & enhancements improving quoting speed and accuracy. Built configuration & commerce rule stacks, templates, and approvals.</p>
+      </article>
+      <article class="card">
         <h3>GE Vernova – Power Services</h3>
         <p>Optimized configuration flows and approvals; integrated with CRM/ERP and automated document generation.</p>
-      </div>
+      </article>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="wrap reveal">
-    <h2 class="section-title">Contact</h2>
-    <div class="panel">
+  <!-- Contact -->
+  <section id="contact" class="section wrap reveal">
+    <h2 class="section__title">Contact</h2>
+    <div class="panel contact">
       <p>📍 Davanagere, Karnataka, India</p>
       <p>📧 <a href="mailto:santhoshmshet94@gmail.com">santhoshmshet94@gmail.com</a></p>
       <p>🔗 <a href="https://linkedin.com/in/santhoshshet" target="_blank" rel="noreferrer">LinkedIn</a> • <a href="https://github.com/santhosh-shet" target="_blank" rel="noreferrer">GitHub</a></p>
     </div>
   </section>
 
-  <footer>
-    © <span id="year"></span> Santhosh M Shet — Built with ❤ and a bit of JavaScript.
+  <footer class="footer">
+    © <span id="year"></span> Santhosh M Shet — Built with love & JavaScript.
   </footer>
-
-  <script>
-    // Footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Typed.js init (your headline rotates through roles)
-    new Typed('#typed', {
-      strings: [
-        "Santhosh Shet",
-        "an Oracle CPQ Developer",
-        "exploring Data Science & Analytics",
-        "a Tech Explorer"
-      ],
-      typeSpeed: 45,
-      backSpeed: 22,
-      backDelay: 1400,
-      loop: true
-    });
-
-    // Particles.js inline config
-    particlesJS('particles-js', {
-      particles: {
-        number: { value: 70, density: { enable: true, value_area: 900 } },
-        color: { value: ["#60a5fa", "#a78bfa", "#34d399"] },
-        shape: { type: "circle" },
-        opacity: { value: 0.25 },
-        size: { value: 3, random: true },
-        line_linked: { enable: true, distance: 140, color: "#6b7280", opacity: 0.25, width: 1 },
-        move: { enable: true, speed: 1.2 }
-      },
-      interactivity: {
-        detect_on: "canvas",
-        events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
-        modes: { repulse: { distance: 120 }, push: { particles_nb: 3 } }
-      },
-      retina_detect: true
-    });
-
-    // Simple reveal on scroll
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((e) => e.isIntersecting && e.target.classList.add('show'));
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
-  </script>
 </body>
 </html>
